@@ -1,0 +1,239 @@
+#main,html{
+    font-family: 'Montserrat', sans-serif;
+}
+/*modo claro*/
+body{
+    background-image: url('img/wpp.webp');
+    transition: background-color 0.7s ease-in-out;
+}
+#nomod{
+  color:#333;
+}
+/*index*/
+/*boton */
+
+
+
+
+#cardQ{
+  z-index: -1;
+  background: linear-gradient(136deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.22) 97.92%, rgba(255, 255, 255, 0.07) 100%);
+  backdrop-filter: blur(20px);
+}
+#cardE{
+  z-index: -1;
+}
+#boton{
+    width: 90%;
+    min-height: 250px;
+    color: black;
+    border: none;
+    backdrop-filter: blur(20px);
+    background: linear-gradient(136deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.22) 97.92%, rgba(255, 255, 255, 0.07) 100%);
+}
+
+
+.btn {
+  border: none;
+  padding: 10px 44px;
+  font-size: 36px;
+  position: relative;
+}
+
+.btn .btn-text {
+  color: white;
+  mix-blend-mode: difference;
+}
+.btn:hover::before {
+  background: black;
+  width: 100%;
+}
+.btn.rounded {
+  border-radius: 50px;
+}
+.btn.rounded .text-green {
+  color: #00F0B5;
+  mix-blend-mode: difference;
+}
+.btn.rounded::before {
+  border-radius: 50px;
+  width: 25%;
+  background: #00F0B5;
+}
+.btn.rounded:hover::before {
+  background: #00F0B5;
+  width: 100%;
+}
+/*modo oscuro*/
+body.dark-mode{
+    background-image: url('img/wpp-dark.webp');
+
+}
+
+
+
+.dark-mode #boton{
+  color: white;
+  background-color: rgba(128, 128, 128, 0.308);
+}
+
+.dark-mode .card {
+  color:whitesmoke;
+  background-color: rgba(128, 128, 128, 0.384);
+}
+
+
+
+
+.dark-mode .container-fluid {
+  color: beige;
+}
+#test.dark-mode{
+    opacity: 90%;
+}
+#green:dark-mode{
+  color: whitesmoke;
+}
+/*boton switch*/
+.switch-btn {
+    border: 2px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .switch-btn i {
+    font-size: 20px;
+  }
+  
+  .dark-mode .switch-btn {
+    background-color: #333;
+    border-color: #333;
+    color: #f9f9f9;
+  }
+  
+  .dark-mode .switch-btn i.fa-moon {
+    opacity: 1;
+  }
+  
+  .dark-mode .switch-btn i.fa-sun {
+    opacity: 0.5;
+  }
+
+/* Modo oscuro - Texto blanco en las cards */
+
+
+
+
+#green{
+    border-radius: 2.5rem;
+background: #444444;
+flex-shrink: 0;
+font-size: 3.4rem;
+}
+
+@media (max-width: 576px) {
+  .tit {
+    font-size: 2rem; /* Tamaño de texto en dispositivos móviles */
+  }
+}
+
+
+#test{
+    opacity:90%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    
+}
+
+/*card*/
+#card-1{
+  display: flex;
+  /*da flexiblidad*/
+  border-radius: 2.5rem;
+  background: linear-gradient(136deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.22) 97.92%, rgba(255, 255, 255, 0.07) 100%);
+  box-shadow: 0px 4px 12px -1px rgba(0, 0, 0, 0.20);
+  backdrop-filter: blur(20px);
+  /**/
+  border-radius: 10px;
+  transition: 0.2s ease-out;
+  position: relative;
+  left: 0px;
+  padding: 10px;
+  margin: 10px;
+}
+
+#card-1:hover{
+  transform: translateY(-10px);
+  transition: 0.4s ease-out;
+
+}
+
+#card-1:hover~.card{
+  position: relative;
+  left: 50px;
+  transition: .4s ease-out;
+}
+
+
+div>a{
+  text-decoration: none;
+}
+
+
+/*pomodoro*/
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.timer {
+  font-size: 48px;
+}
+
+button {
+  margin: 10px;
+}
+
+
+/*biblioteca*/
+#cuat-1{
+  border-radius: 0rem 5rem 5rem 0rem;
+  background: linear-gradient(136deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.22) 97.92%, rgba(255, 255, 255, 0.07) 100%);
+  box-shadow: 0px 4px 12px -1px rgba(0, 0, 0, 0.20);
+  backdrop-filter: blur(20px);
+}
+
+#btnMat{
+  border-radius: 0.625rem;
+background: #024064;
+margin: 10px;
+color: #FEFED3;
+}
+
+
+@media (max-width: 576px) {
+  #btnMat {
+    font-size: .2rem; /* Tamaño de texto en dispositivos móviles */
+  }
+}
+/*elementos*/
+.temas{
+  border-radius: 5rem 5rem 5rem 5rem;
+  background: linear-gradient(136deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.22) 97.92%, rgba(255, 255, 255, 0.07) 100%);
+  box-shadow: 0px 4px 12px -1px rgba(0, 0, 0, 0.20);
+  backdrop-filter: blur(20px);
+  margin: 5PX;
+}

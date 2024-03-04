@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://it-hub.neocities.org/css/style.css">
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/1119139672925405256/1138749620437131305/jorunal.webp" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Álgebra lineal</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="test">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="https://it-hub.neocities.org">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                Recursos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="https://it-hub.neocities.org/egresados">Experiencia egresados</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="https://it-hub.neocities.org/calendario">Calendario de eventos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item " href="https://it-hub.neocities.org/pomodoroo">Pomodoro cronómetro</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="https://it-hub.neocities.org/noticias">Blog de noticias</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item active" href="https://it-hub.neocities.org/biblioteca">Biblioteca</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="https://it-hub.neocities.org/quizzes">Quizzes</a></li>
+              </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="https://it-hub.neocities.org/nosotros">Nosotros</a>
+              </li>
+          </ul>
+
+        </div><!--colapse nav-->
+        <button class="switch-btn" id="modoBtn" onclick="toggleModo()">
+          <i class="bi bi-sun-fill"></i>
+          <i class="bi bi-moon-stars-fill"></i>
+        </button>
+      </div><!--container flui nav-->
+    </nav>
+  </header>
+  <div class="container-fluid text-center" >
+    <h1>Álgebra lineal</h1>
+        <div class="row">
+            <div class="col-lg-6 sm-12  text-center">
+                <h3>Páginas</h3>
+                <h5>Páginas web de apoyo y explicación sobre los temas</h5>
+                <img class="img-fluid" src="pdf.png">
+                <hr>
+                <h5>Tema: Clasificación de los números reales </h5>
+                <div class="temas">
+                    <a href="https://www.varsitytutors.com/hotmath/hotmath_help/spanish/topics/number-line"><i class="bi bi-file-earmark-fill"></i></a>
+                </div><!--elementos--> 
+                <div class="temas">
+                  <a href="https://www.smartick.es/blog/matematicas/algebra/ubicar-numeros-la-recta-numerica/"><i class="bi bi-file-earmark-fill"></i></a>
+              </div><!--elementos--> 
+                <hr>
+                <h5>Tema: Números complejos </h5>
+                <div class="temas">
+                    <a href="https://www.ferrovial.com/es/stem/numeros-complejos/"><i class="bi bi-file-earmark-fill"></i></a>
+                </div><!--elementos--> 
+                <div class="temas">
+                  <a href="https://www.problemasyecuaciones.com/complejos/sumar-restar-multiplicar-dividir-numeros-complejos-imaginarios-ejemplos-formulas.html"><i class="bi bi-file-earmark-fill"></i></a>
+              </div><!--elementos--> 
+                <hr>
+                <h5>Tema: Sistemas de numeración </h5>
+                <div class="temas">
+                    <a href="https://www.profesionalreview.com/2018/12/11/sistema-binario-decimal-octal-hexadecimal/"><i class="bi bi-file-earmark-fill"></i></a>
+                </div><!--elementos--> 
+                <div class="temas">
+                  <a href="https://portalacademico.cch.unam.mx/cibernetica1/sistemas-de-numeracion/conversiones-rapidas"><i class="bi bi-file-earmark-fill"></i></a>
+              </div><!--elementos--> 
+              <hr>
+              <h5>Tema: Expresiones algebraicas y su clasificación</h5>
+              <div class="temas">
+                  <a href="https://www.superprof.es/apuntes/escolar/matematicas/algebra/polinomios/expresiones-algebraicas-y-monomios.html"><i class="bi bi-file-earmark-fill"></i></a>
+              </div><!--elementos-->
+              <hr>
+              <h5>Tema: Operaciones algebraicas</h5>
+                <div class="temas">
+                  <a href="https://ciencias-basicas.com/operaciones-algebraicas/"><i class="bi bi-file-earmark-fill"></i></a>
+                </div><!--elementos--> 
+              <hr>
+              <h5>Tema: Productos notables</h5>
+                <div class="temas">
+                  <a href="https://www.todamateria.com/productos-notables/#:~:text=Los%20productos%20notables%20son%20expresiones,de%20efectuar%20la%20multiplicaci%C3%B3n%20correspondiente."><i class="bi bi-file-earmark-fill"></i></a>
+                </div><!--elementos--> 
+              <hr>
+              <h5>Tema: Factorización</h5>
+                <div class="temas">
+                  <a href="https://www.clasificacionde.org/tipos-de-factorizacion/"><i class="bi bi-file-earmark-fill"></i></a>
+                </div><!--elementos--> 
+              <hr>
+              <h5>Tema: Ecuaciones de primer grado</h5>
+                <div class="temas">
+                  <a href="https://www.superprof.es/apuntes/escolar/matematicas/algebralineal/sistemas/ecuaciones-lineales.html"><i class="bi bi-file-earmark-fill"></i></a>
+                </div><!--elementos--> 
+              <hr>
+              <h5>Tema: Desigualdades lineales</h5>
+                <div class="temas">
+                  <a href="https://www.varsitytutors.com/hotmath/hotmath_help/spanish/topics/graphing-systems-of-linear-inequalities"><i class="bi bi-file-earmark-fill"></i></a>
+                </div><!--elementos-->
+                <div class="temas">
+                  <a href="https://content.nroc.org/DevelopmentalMath.HTML5/U13L2T4/TopicText/es/textbook.html"><i class="bi bi-file-earmark-fill"></i></a>
+                </div><!--elementos-->
+              <hr>
+              <h5>Tema: Sistemas de ecuaciones lineales con dos incógnitas</h5>
+                  <div class="temas">
+                    <a href="https://oggisioggino.wordpress.com/2014/02/15/sistemas-de-ecuaciones-lineales-con-dos-incognitas/"><i class="bi bi-file-earmark-fill"></i></a>
+                  </div><!--elementos-->
+                  <hr>
+              <h5>Tema: Ecuaciones de Segundo Grado</h5>
+                <div class="temas">
+                  <a href="http://recursostic.educacion.es/descartes/web/Descartes1/4a_eso/Ecuacion_de_segundo_grado/Ecua_seg.htm"><i class="bi bi-file-earmark-fill"></i></a>
+                </div><!--elementos-->
+              <hr>
+              <h5>Tema: Matrices</h5>
+                <div class="temas">
+                  <a href="https://www.ferrovial.com/es/stem/matrices/#:~:text=Las%20matrices%20son%20un%20conjunto,para%20representar%20una%20aplicaci%C3%B3n%20lineal."><i class="bi bi-file-earmark-fill"></i></a>
+                </div><!--elementos-->
+              <hr>
+              <h5>Tema: Determinantes</h5>
+                <div class="temas">
+                  <a href="https://www.studysmarter.es/resumenes/matematicas/numeros-y-algebra/determinantes/"><i class="bi bi-file-earmark-fill"></i></a>
+                </div><!--elementos-->
+              <hr>
+              <h5>Tema: Sistemas de ecuaciones lineales con matrices</h5>
+                 <div class="temas">
+                  <a href="https://aga.frba.utn.edu.ar/matrices-y-sistemas-de-ecuaciones-lineales/"><i class="bi bi-file-earmark-fill"></i></a>
+                </div><!--elementos--> 
+            </div><!--col-6-->
+            <div class="col-lg-6 sm-12 text-center">
+                <h3>Videos</h3>
+                <h5>Videos de apoyo y con explicaciones sobre el tema </h5>
+                <img class="img-fluid" src="video.png">
+                <hr>
+                <h5>Tema: Clasificación de los números reales</h5>
+                <div class="temas">
+                    <a href="https://www.youtube.com/watch?v=ncFaIIVTNpo"><i class="bi bi-youtube"></i></a>
+                </div><!--elementos--> 
+                <hr>
+                <h5>Tema:  Números complejos </h5>
+                <div class="temas">
+                    <a href="https://www.youtube.com/playlist?list=PLeySRPnY35dHfzYRb8StWkxnVTkrocv6X"><i class="bi bi-youtube"></i></a>
+                </div><!--elementos--> 
+                <hr>
+                <h5>Tema: Sistemas de numeración 
+                  </h5>
+                <div class="temas">
+                    <a href="https://www.youtube.com/watch?v=4kenXkQBIEw&list=PL46-B5QR6sHleyaafOF3Vp1ZpiUEtHJ40"><i class="bi bi-youtube"></i></a>
+                </div><!--elementos--> 
+                <hr>
+                <h5>Tema: Expresiones algebraicas y su clasificación</h5>
+                <div class="temas">
+                    <a href="https://www.youtube.com/watch?v=_NS3U2nwk0g"><i class="bi bi-youtube"></i></a>
+                </div><!--elementos--> 
+                <div class="temas">
+                  <a href="https://www.youtube.com/watch?v=4L7jpUzg6H8"><i class="bi bi-youtube"></i></a>
+                </div><!--elementos--> 
+                <hr>
+                <h5>Tema: Operaciones algebraicas</h5>
+                <div class="temas">
+                    <a href="https://www.youtube.com/watch?v=nJ234FDIBrE"><i class="bi bi-youtube"></i></a>
+                </div><!--elementos--> 
+                <div class="temas">
+                  <a href="https://www.youtube.com/watch?v=xA43hy9QqPg"><i class="bi bi-youtube"></i></a>
+                </div><!--elementos--> 
+                <hr>  
+                <h5>Tema: Productos notables</h5>
+                <div class="temas">
+                    <a href="https://www.youtube.com/watch?v=eHDIhEjE3c0"><i class="bi bi-youtube"></i></a>
+                </div><!--elementos-->
+                <hr>  
+                <h5>Tema: Factorización</h5>
+                <div class="temas">
+                    <a href="https://www.youtube.com/watch?v=4bCKKe3mR08"><i class="bi bi-youtube"></i></a>
+                </div><!--elementos-->  
+                <div class="temas">
+                  <a href="https://www.youtube.com/watch?v=sSfO1CsKJ4g"><i class="bi bi-youtube"></i></a>
+                </div><!--elementos--> 
+                <hr>  
+                <h5>Tema: Ecuaciones de primer grado</h5>
+                <div class="temas">
+                    <a href="https://www.youtube.com/watch?v=8rT0DZbYGEs"><i class="bi bi-youtube"></i></a>
+                </div><!--elementos-->  
+                <hr>  
+                <h5>Tema: Desigualdades lineales</h5>
+                <div class="temas">
+                    <a href="https://www.youtube.com/watch?v=B0YdPj1KWpQ "><i class="bi bi-youtube"></i></a>
+                </div><!--elementos-->  
+                <div class="temas">
+                    <a href="https://www.youtube.com/watch?v=jSZWvCh2PqI"><i class="bi bi-youtube"></i></a>
+                </div><!--elementos--> 
+                <hr>  
+                <h5>Tema: Sistemas de ecuaciones lineales con dos incógnitas</h5>
+                <div class="temas">
+                    <a href="https://www.youtube.com/watch?v=k8NEpHKFAnY"><i class="bi bi-youtube"></i></a>
+                </div><!--elementos--> 
+                <hr>  
+                <h5>Tema: Ecuaciones de Segundo Grado</h5>
+                <div class="temas">
+                    <a href="https://www.youtube.com/watch?v=N0ozRYJyOiY "><i class="bi bi-youtube"></i></a>
+                </div><!--elementos--> 
+                <hr>  
+                <h5>Tema: Matrices</h5>
+                <div class="temas">
+                    <a href="https://www.youtube.com/playlist?list=PLeySRPnY35dEr2XewNdOjOl7Ft0tLIlKI "><i class="bi bi-youtube"></i></a>
+                </div><!--elementos--> 
+                <hr>  
+                <h5>Tema: Determinantes</h5>
+                <div class="temas">
+                    <a href="https://www.youtube.com/watch?v=GPhTBWDqEBw"><i class="bi bi-youtube"></i></a>
+                </div><!--elementos--> 
+                <hr>  
+                <h5>Tema: Sistemas de ecuaciones lineales con matrices</h5>
+                <div class="temas">
+                    <a href="https://www.youtube.com/watch?v=WRYgm1aIoN8"><i class="bi bi-youtube"></i></a>
+                </div><!--elementos--> 
+            </div><!--col-6 videos-->
+        </div><!--row-->
+      </div>    
+          <footer style="background-color: #75817a;">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <p class="text-center" style="color: #f5f5dc;">© 2023 Universidad Tecnológica de la Sierra Hidalguense. Todos los derechos reservados.</p>
+                  <p class="text-center" style="color: #f5f5dc;">Página desarrollada con fines educativos.</p>
+                  <div class="text-center">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://it-hub.neocities.org/css/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://it-hub.neocities.org/css/style.css">
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/1119139672925405256/1138749620437131305/jorunal.webp" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Fundamentos De TI</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="test">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+               <a class="nav-link " aria-current="page" href="https://it-hub.neocities.org">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                Recursos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="https://it-hub.neocities.org/egresados">Experiencia egresados</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="https://it-hub.neocities.org/calendario">Calendario de eventos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item " href="https://it-hub.neocities.org/pomodoroo">Pomodoro cronómetro</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="https://it-hub.neocities.org/noticias">Blog de noticias</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item active" href="https://it-hub.neocities.org/biblioteca">Biblioteca</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="https://it-hub.neocities.org/quizzes">Quizzes</a></li>
+              </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="https://it-hub.neocities.org/nosotros">Nosotros</a>
+              </li>
+          </ul>
+
+        </div><!--colapse nav-->
+        <button class="switch-btn" id="modoBtn" onclick="toggleModo()">
+          <i class="bi bi-sun-fill"></i>
+          <i class="bi bi-moon-stars-fill"></i>
+        </button>
+      </div><!--container flui nav-->
+    </nav>
+  </header>
+    <div class="container-fluid text-center" >
+        <h1>Fundamentos De Ti</h1>
+            <div class="row">
+                <div class="col-lg-6 sm-12  text-center">
+                    <h3>Páginas</h3>
+                    <h5>Páginas web de apoyo y explicación sobre los temas</h5>
+                    <img class="img-fluid" src="https://cdn.discordapp.com/attachments/696173635441786902/1139045746092560435/paginas.png">
+                    <hr>
+                    <h5>Tema: Procesador de texto </h5>
+                    <div class="temas">
+                        <a href="https://learn.microsoft.com/es-es/office/dev/add-ins/word/word-add-ins-programming-overview"><i class="bi bi-file-earmark-fill"></i></a>
+                    </div><!--elementos--> 
+                    <hr>
+                    <h5>Tema: Hoja de cálculo  </h5>
+                    <div class="temas">
+                        <a href="https://support.microsoft.com/es-es/office/informaci%C3%B3n-general-sobre-f%C3%B3rmulas-en-excel-ecfdc708-9162-49e8-b993-c311f47ca173"><i class="bi bi-file-earmark-fill"></i></a>
+                    </div><!--elementos--> 
+                    <hr>
+                    <h5>Tema: Presentaciones electrónicas  </h5>
+                    <div class="temas">
+                        <a href="https://support.microsoft.com/es-es/office/animar-texto-u-objetos-305a1c94-83b1-4778-8df5-fcf7a9b7b7c6"><i class="bi bi-file-earmark-fill"></i></a>
+                    </div><!--elementos-->
+                    <div class="temas">
+                      <a href="https://support.microsoft.com/es-es/office/tareas-b%C3%A1sicas-para-crear-una-presentaci%C3%B3n-de-powerpoint-efbbc1cd-c5f1-4264-b48e-c8a7b0334e36"><i class="bi bi-file-earmark-fill"></i></a>
+                  </div><!--elementos-->
+                    <hr>
+                    <h5>Tema: Introducción a los sistemas de cómputo.  </h5>
+                    <div class="temas">
+                      <a href="https://support.microsoft.com/es-es/office/animar-texto-u-objetos-305a1c94-83b1-4778-8df5-fcf7a9b7b7c6"><i class="bi bi-file-earmark-fill"></i></a>
+                    </div><!--elementos-->
+                    <hr>
+                    <h5>Tema: Instrumentación y procedimientos de laboratorio de cómputo.  </h5>
+                    <div class="temas">
+                      <a href="http://andreafloresti.blogspot.com/2018/11/instrumentacion-y-procedimientos-de.html"><i class="bi bi-file-earmark-fill"></i></a>
+                    </div><!--elementos-->
+                    <hr>
+                    <h5>Tema: Ensamblaje de un sistema de cómputo. </h5>
+                    <div class="temas">
+                      <a href="https://issuu.com/lorenacoloniaguillen/docs/ensamblaje_de_equipos_de_computo_issuu"><i class="bi bi-file-earmark-fill"></i></a>
+                    </div><!--elementos-->
+                    <hr>
+                    <h5>Tema: Principios básicos del mantenimiento de sistemas de cómputo.</h5>
+                    <div class="temas">
+                      <a href="https://prezi.com/p/kwfhoqwgb4dg/principios-basicos-del-mantenimiento-de-sistemas-de-computo/#:~:text=El%20mantenimiento%20que%20se%20debe,y%20revisi%C3%B3n%20del%20sistema%20operativo."><i class="bi bi-file-earmark-fill"></i></a>
+                    </div><!--elementos-->
+                    <hr>
+                    <h5>Tema: Preparación e Instalación de sistemas operativos.</h5>
+                    <div class="temas">
+                      <a href="https://profesorweb.es/2016/12/pasos-en-la-instalacion-de-un-sistema-operativos/"><i class="bi bi-file-earmark-fill"></i></a>
+                    </div><!--elementos-->
+                    <hr>
+                    <h5>Tema: Instalación y actualización de paqueterías y controladores.</h5>
+                    <div class="temas">
+                      <a href="http://andreafloresti.blogspot.com/2018/11/instalacion-y-actualizacion-de.html"><i class="bi bi-file-earmark-fill"></i></a>
+                    </div><!--elementos-->
+                    <hr>
+                    <h5>Tema: Conceptos básicos sobre seguridad.</h5>
+                    <div class="temas">
+                      <a href="https://polemos.pe/conceptos-basicos-de-seguridad-y-salud-en-el-trabajo-parte-ii/"><i class="bi bi-file-earmark-fill"></i></a>
+                    </div><!--elementos-->
+                </div><!--col-6-->
+                <div class="col-lg-6 sm-12  text-center">
+                    <h3>Videos</h3>
+                    <h5>Videos de apoyo y con explicaciones sobre el tema  </h5>
+                    <img class="img-fluid" src="https://cdn.discordapp.com/attachments/1119139672925405256/1137988940561911818/3d-fluency-movies-folder-v.png">
+                    <hr>
+                    <h5>Tema: Procesador de texto </h5>
+                    <div class="temas">
+                        <a href="https://www.youtube.com/watch?v=oi9woh5hQz8"><i class="bi bi-youtube"></i></a>
+                    </div><!--elementos--> 
+                    <div class="temas">
+                        <a href="https://www.youtube.com/watch?v=HNvBtZc5Mkk"><i class="bi bi-youtube"></i></a>
+                    </div><!--elementos--> 
+                    <hr>
+                    <h5>Tema: Hoja de cálculo </h5>
+                    <div class="temas">
+                        <a href="https://www.youtube.com/watch?v=P5WQ8gdn2Ho"><i class="bi bi-youtube"></i></a>
+                    </div><!--elementos--> 
+                    <div class="temas">
+                        <a href="https://www.youtube.com/watch?v=LfVsSDZVSzo&pp=ygXVAUlkZW50aWZpY2FyIGVsZW1lbnRvcyB5IGhlcnJhbWllbnRhcyBkZWwgZW50b3JubywgSWRlbnRpZmljYXIgY29tcGxlbWVudG9zIHBhcmEgZnVuY2lvbmVzIGVzcGVjw61maWNhczogY2VsZGFzIHkgcmFuZ29zLCBmb3JtYXRvIGRlIGhvamEgZGUgY8OhbGN1bG8geSBsaWJybywgcmVmZXJlbmNpYXMsIGZvcm11bGFzIHkgZnVuY2lvbmVzLCBncsOhZmljb3MgeSBvYmpldG9zLg%3D%3D"><i class="bi bi-youtube"></i></a>
+                    </div><!--elementos-->
+                    <hr>
+                    <h5>Tema: Presentaciones electrónicas </h5>
+                    <div class="temas">
+                        <a href="https://www.youtube.com/watch?v=wtILMc6xDCE"><i class="bi bi-youtube"></i></a>
+                    </div><!--elementos-->
+                    <hr>
+                    <h5>Tema: Introducción a los sistemas de cómputo. </h5>
+                    <div class="temas">
+                        <a href="https://introduccionalossistemasdecomputo.wordpress.com/introduccion-a-los-sistemas-de-computo/"><i class="bi bi-youtube"></i></a>
+                    </div><!--elementos-->
+                    <hr>
+                    <h5>Tema: Instrumentación y procedimientos de laboratorio de cómputo. </h5>
+                    <div class="temas">
+                        <a href="https://www.youtube.com/watch?v=djjhCsYo1Ew&pp=ygU9SW5zdHJ1bWVudGFjacOzbiB5IHByb2NlZGltaWVudG9zIGRlIGxhYm9yYXRvcmlvIGRlIGPDs21wdXRvLg%3D%3D"><i class="bi bi-youtube"></i></a>
+                    </div><!--elementos-->
+                    <hr>
+                    <h5>Tema: Ensamblaje de un sistema de cómputo. </h5>
+                    <div class="temas">
+                        <a href="https://www.youtube.com/watch?v=_YAv1D6VlHQ&pp=ygUlRW5zYW1ibGFqZSBkZSB1biBzaXN0ZW1hIGRlIGPDs21wdXRvLg%3D%3D"><i class="bi bi-youtube"></i></a>
+                    </div><!--elementos-->
+                    <hr>
+                    <h5>Tema: Principios básicos del mantenimiento de sistemas de cómputo. </h5>
+                    <div class="temas">
+                        <a href="https://www.youtube.com/watch?v=VK4MquWx_a0&pp=ygU-UHJpbmNpcGlvcyBiw6FzaWNvcyBkZWwgbWFudGVuaW1pZW50byBkZSBzaXN0ZW1hcyBkZSBjw7NtcHV0by4%3D"><i class="bi bi-youtube"></i></a>
+                    </div><!--elementos-->
+                    <hr>
+                    <h5>Tema: Preparación e Instalación de sistemas operativos. </h5>
+                    <div class="temas">
+                        <a href="https://www.youtube.com/watch?v=jfXWTlxWXeM&pp=ygUzUHJlcGFyYWNpw7NuIGUgSW5zdGFsYWNpw7NuIGRlIHNpc3RlbWFzIG9wZXJhdGl2b3Mu"><i class="bi bi-youtube"></i></a>
+                    </div><!--elementos-->
+                    <hr>
+                    <h5>Tema: Instalación y actualización de paqueterías y controladores. </h5>
+                    <div class="temas">
+                        <a href="https://www.youtube.com/watch?v=O2bvaTBPmAc&pp=ygU-SW5zdGFsYWNpw7NuIHkgYWN0dWFsaXphY2nDs24gZGUgcGFxdWV0ZXLDrWFzIHkgY29udHJvbGFkb3Jlcy4%3D"><i class="bi bi-youtube"></i></a>
+                    </div><!--elementos-->
+                    <hr>
+                    <h5>Tema: Conceptos básicos sobre seguridad. </h5>
+                    <div class="temas">
+                        <a href="https://www.youtube.com/watch?v=JXDUKotmsWQ&pp=ygUjQ29uY2VwdG9zIGLDoXNpY29zIHNvYnJlIHNlZ3VyaWRhZC4%3D"><i class="bi bi-youtube"></i></a>
+                    </div><!--elementos--> 
+                </div><!--col-6 videos-->
+            </div><!--row-->
+          </div>    
+          <footer style="background-color: #75817a;">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <p class="text-center" style="color: #f5f5dc;">© 2023 Universidad Tecnológica de la Sierra Hidalguense. Todos los derechos reservados.</p>
+                  <p class="text-center" style="color: #f5f5dc;">Página desarrollada con fines educativos.</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://it-hub.neocities.org/css/script.js"></script>
+</body>
+</html>
